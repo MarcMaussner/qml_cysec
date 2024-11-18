@@ -4,6 +4,7 @@ cybersecurity aspects in quantum machine learning
 ## List of cybersecurity attacks for experimentsc
 - Crosstalk:
   - create proof of concept with noisy backend -> try to flip one possible qubit
+    in accordance with: Abdullah Ash-Saki, Mahabubul Alam, and Swaroop Ghosh. 2020. Analysis of crosstalk in NISQ devices and security implications in multi-programming regime. In Proceedings of the ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED '20). Association for Computing Machinery, New York, NY, USA, 25–30. https://doi.org/10.1145/3370748.3406570
   - create proof of concept qml -> learn logic gates?
   - create real world qml (MNIST, CISAF10),...
 - Transpilation:
@@ -19,6 +20,6 @@ cybersecurity aspects in quantum machine learning
 - 18.10.2024: Kickoff
   - Gather list of possible attacks
   - Gather list of conferences
-- 29.10.2024: FollowUp
+- 29.11.2024: FollowUp
   - Think about list extension
   - Present current state of proof of concepts (noisy backend, transpilation)
