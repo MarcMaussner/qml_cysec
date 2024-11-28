@@ -23,3 +23,7 @@ cybersecurity aspects in quantum machine learning
 - 29.11.2024: FollowUp
   - Think about list extension
   - Present current state of proof of concepts (noisy backend, transpilation)
+- 17.01.2025: FollowUp
+  - Prepare and present QML exmples and store them in QML folder
+    - Sinus learn
+    - logic gate learn
