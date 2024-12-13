@@ -9,6 +9,9 @@ cybersecurity aspects in quantum machine learning
   - create real world qml (MNIST, CISAF10),...
 - Transpilation:
   - reuse qiskit transpiler passes to insert X-Gates on purpose of circuit transpilation
+- One-Pixel-Attack:
+  - create proof of concept based on paper: One pixel attack for fooling deep neural networks (Jiawei Su, Danilo Vasconcellos Vargas, Sakurai Kouichi)
+  - try to get into the math behind to construct one-pixel image
 
 ## Conferences:
 - Embedded World 2025
@@ -27,3 +30,6 @@ cybersecurity aspects in quantum machine learning
   - Prepare and present QML exmples and store them in QML folder
     - Sinus learn
     - logic gate learn
+    - One-Pixel-Attack:
+      - Classification of pictures black/white (AmplitudeEncoding)
+      - Try missprediction by changing only one pixel in one picture
