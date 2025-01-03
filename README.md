@@ -12,6 +12,8 @@ cybersecurity aspects in quantum machine learning
 - One-Pixel-Attack:
   - create proof of concept based on paper: One pixel attack for fooling deep neural networks (Jiawei Su, Danilo Vasconcellos Vargas, Sakurai Kouichi)
   - try to get into the math behind to construct one-pixel image
+- Adversarial attack and increase robustness:
+  - https://pennylane.ai/qml/demos/tutorial_adversarial_attacks_QML
 
 ## Conferences:
 - Embedded World 2025
