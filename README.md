@@ -20,6 +20,7 @@ cybersecurity aspects in quantum machine learning
 - GI Workshop Quantum 2025
 - QTML 2025
 - QCE 2025
+- ECCSW 2025
 
 ## Timeline:
 - 18.10.2024: Kickoff
@@ -28,10 +29,12 @@ cybersecurity aspects in quantum machine learning
 - 29.11.2024: FollowUp
   - Think about list extension
   - Present current state of proof of concepts (noisy backend, transpilation)
-- 17.01.2025: FollowUp
+- 10.01.2025: FollowUp
   - Prepare and present QML exmples and store them in QML folder
     - Sinus learn
     - logic gate learn
     - One-Pixel-Attack:
       - Classification of pictures black/white (AmplitudeEncoding)
       - Try missprediction by changing only one pixel in one picture
+    - Adversarial:
+      - PGD, FGSM
