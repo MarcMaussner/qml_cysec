@@ -38,3 +38,9 @@ cybersecurity aspects in quantum machine learning
       - Try missprediction by changing only one pixel in one picture
     - Adversarial:
       - PGD, FGSM
+- 07.03.2025: FollowUp
+  - Thoughts:
+    * Run Experiments on HW and see with noise pertubations (Adversarial -> PQD, FGSM)
+    * Try attack on kernel
+    * Deep dive into math
+    * Transpilation and sine with qiskit -> results always in 1
