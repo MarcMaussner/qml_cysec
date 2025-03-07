@@ -40,7 +40,10 @@ cybersecurity aspects in quantum machine learning
       - PGD, FGSM
 - 07.03.2025: FollowUp
   - Thoughts:
-    * Run Experiments on HW and see with noise pertubations (Adversarial -> PQD, FGSM)
-    * Try attack on kernel
-    * Deep dive into math
-    * Transpilation and sine with qiskit -> results always in 1
+    1.1) Run Experiments on HW and see with noise pertubations (Adversarial -> PQD, FGSM)
+       * Pennylane -> HW?!?
+       * maybe also on Qiskit
+    1.2) Run Experiments on Crosstalk on IQM
+    3.1) Try attack on kernel
+    3.2) Deep dive into math
+    2) Transpilation and sine with qiskit -> results always in 1
