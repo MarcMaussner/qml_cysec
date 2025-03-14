@@ -42,7 +42,8 @@ cybersecurity aspects in quantum machine learning
   - Thoughts:
     1.1) Run Experiments on HW and see with noise pertubations (Adversarial -> PQD, FGSM)
        * Pennylane -> HW?!?
-       * maybe also on Qiskit
+         - default.mixed -> simulator on pennylane with noise
+         - https://docs.pennylane.ai/projects/qiskit/en/latest/
     1.2) Run Experiments on Crosstalk on IQM
     3.1) Try attack on kernel
     3.2) Deep dive into math
