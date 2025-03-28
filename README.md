@@ -20,6 +20,7 @@ cybersecurity aspects in quantum machine learning
 - GI Workshop Quantum 2025
 - QTML 2025
 - QCE 2025
+- ECCSW 2025
 
 ## Timeline:
 - 18.10.2024: Kickoff
@@ -28,10 +29,22 @@ cybersecurity aspects in quantum machine learning
 - 29.11.2024: FollowUp
   - Think about list extension
   - Present current state of proof of concepts (noisy backend, transpilation)
-- 17.01.2025: FollowUp
+- 10.01.2025: FollowUp
   - Prepare and present QML exmples and store them in QML folder
     - Sinus learn
     - logic gate learn
     - One-Pixel-Attack:
       - Classification of pictures black/white (AmplitudeEncoding)
       - Try missprediction by changing only one pixel in one picture
+    - Adversarial:
+      - PGD, FGSM
+- 07.03.2025: FollowUp
+  - Thoughts:
+    1.1) Run Experiments on HW and see with noise pertubations (Adversarial -> PQD, FGSM)
+       * Pennylane -> HW?!?
+         - default.mixed -> simulator on pennylane with noise
+         - https://docs.pennylane.ai/projects/qiskit/en/latest/
+    1.2) Run Experiments on Crosstalk on IQM
+    3.1) Try attack on kernel
+    3.2) Deep dive into math
+    2) Transpilation and sine with qiskit -> results always in 1
