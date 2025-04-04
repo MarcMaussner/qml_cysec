@@ -14,6 +14,8 @@ cybersecurity aspects in quantum machine learning
   - try to get into the math behind to construct one-pixel image
 - Adversarial attack and increase robustness:
   - https://pennylane.ai/qml/demos/tutorial_adversarial_attacks_QML
+- Pennylane-Hw:
+  - Simple proof of concept for using noisy simulator and ibm quantum hardware in pennylane
 
 ## Conferences:
 - Embedded World 2025
@@ -48,3 +50,11 @@ cybersecurity aspects in quantum machine learning
     3.1) Try attack on kernel
     3.2) Deep dive into math
     2) Transpilation and sine with qiskit -> results always in 1
+- 04.04.2025: FollowUp
+  - Planning of paper for GI
+    - Outline of paper and preparation of template -> Marc
+    - Bibliography -> Volker + Marc
+    - try sine (mixed, qiskit.remote) -> Marc
+    - try "qiskit.local" -> noisy fake device -> Marc
+    - try pennylane-hw -> Volker
+    - try PGD with mixed-device -> Volker
