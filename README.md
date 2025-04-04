@@ -56,5 +56,6 @@ cybersecurity aspects in quantum machine learning
     - Bibliography -> Volker + Marc
     - try sine (mixed, qiskit.remote) -> Marc
     - try "qiskit.local" -> noisy fake device -> Marc
+       -> OK -> see pennylane_hw now also using fake_sherbrooke
     - try pennylane-hw -> Volker
     - try PGD with mixed-device -> Volker
