@@ -55,6 +55,7 @@ cybersecurity aspects in quantum machine learning
     - Outline of paper and preparation of template -> Marc
     - Bibliography -> Volker + Marc
     - try sine (mixed, qiskit.remote) -> Marc
+        -> OK
     - try "qiskit.local" -> noisy fake device -> Marc
        -> OK -> see pennylane_hw now also using fake_sherbrooke
     - try pennylane-hw -> Volker
