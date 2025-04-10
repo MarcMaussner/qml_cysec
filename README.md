@@ -52,7 +52,7 @@ cybersecurity aspects in quantum machine learning
     2) Transpilation and sine with qiskit -> results always in 1
 - 04.04.2025: FollowUp
   - Planning of paper for GI
-    - Outline of paper and preparation of template -> Marc
+    - Outline of paper and preparation of template -> Marc -> DONE
     - Bibliography -> Volker + Marc
     - try sine (mixed, qiskit.remote) -> Marc
         -> OK
@@ -60,3 +60,4 @@ cybersecurity aspects in quantum machine learning
        -> OK -> see pennylane_hw now also using fake_sherbrooke
     - try pennylane-hw -> Volker
     - try PGD with mixed-device -> Volker
+    - add means of robustness (accuracy, confusion-matrix) to original PGD and FGSM examples -> Marc -> DONE
