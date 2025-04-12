@@ -61,3 +61,4 @@ cybersecurity aspects in quantum machine learning
     - try pennylane-hw -> Volker
     - try PGD with mixed-device -> Volker
     - add means of robustness (accuracy, confusion-matrix) to original PGD and FGSM examples -> Marc -> DONE
+    - added PGD with reduced images (16x16 -> 8x8) and run with mixed-device
