@@ -63,3 +63,4 @@ cybersecurity aspects in quantum machine learning
     - add means of robustness (accuracy, confusion-matrix) to original PGD and FGSM examples -> Marc -> DONE
     - added PGD with reduced images (16x16 -> 8x8) and run with mixed-device
     - added PGD with reduced images (16x16 -> 8x8) and run with qiskit-AER
+    - added PGD with reduced images (16x16 -> 8x8) and run with fake_device=Fake_LimaV2 -> Marc -> Ongoing
