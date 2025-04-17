@@ -40,6 +40,7 @@ cybersecurity aspects in quantum machine learning
       - Try missprediction by changing only one pixel in one picture
     - Adversarial:
       - PGD, FGSM
+        
 - 07.03.2025: FollowUp
   - Thoughts:
     1.1) Run Experiments on HW and see with noise pertubations (Adversarial -> PQD, FGSM)
@@ -50,6 +51,7 @@ cybersecurity aspects in quantum machine learning
     3.1) Try attack on kernel
     3.2) Deep dive into math
     2) Transpilation and sine with qiskit -> results always in 1
+
 - 04.04.2025: FollowUp
   - Planning of paper for GI
     - Outline of paper and preparation of template -> Marc -> DONE
@@ -64,3 +66,13 @@ cybersecurity aspects in quantum machine learning
     - added PGD with reduced images (16x16 -> 8x8) and run with mixed-device
     - added PGD with reduced images (16x16 -> 8x8) and run with qiskit-AER
     - added PGD with reduced images (16x16 -> 8x8) and run with fake_device=Fake_LimaV2 -> Marc -> Ongoing
+
+- 17.04.2025: FollowUp
+  - Bibliography -> Volker + Marc ongoing
+  - added PGD with reduced images (16x16 -> 8x8) and run with fake_device=Fake_LimaV2 -> Marc -> Ongoing
+  - Planning of Paper:
+    - Introduction -> Volker
+    - Methods, Results -> Marc
+    - Bibliography will be inserted from Volker, Marc
+  - FollowUp on 28.04. to plan and discuss last steps until dealine 02.05.2025
+  
