@@ -75,4 +75,7 @@ cybersecurity aspects in quantum machine learning
     - Methods, Results -> Marc
     - Bibliography will be inserted from Volker, Marc
   - FollowUp on 28.04. to plan and discuss last steps until dealine 02.05.2025
-  
+
+- 20.11.2025: Presentation in Oulu
+  - Try also retraining with PGD and then applying FGSM -> what about robustness
+  - For FakeLimaV2 -> maybe use explainable AI to see what is the reason of the behaviour.
