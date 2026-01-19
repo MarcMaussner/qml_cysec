@@ -79,3 +79,16 @@ cybersecurity aspects in quantum machine learning
 - 20.11.2025: Presentation in Oulu
   - Try also retraining with PGD and then applying FGSM -> what about robustness
   - For FakeLimaV2 -> maybe use explainable AI to see what is the reason of the behaviour.
+- 19.01.2026: FollowUp:
+  - Planning GI handin:
+    * Title "Does robustness in Quantum Machine Learning increase in noisy regime and what countermeasures can be applied to quantum adversarial attacks?
+    * Tasks:
+      - Extend learning on fake-device -> better results?
+      - Efficient State Preparation (West)
+      - Train on noise device and run on another (different noise model) -> what about results
+    * Next Steps:
+      - Get environment working on infoteam local VM environment -> Marc
+      - Literature research -> Volker + Marc
+      - Strategic/Community -> Who is doing things in cybersecurity for quantum? -> Volker
+      - HowTo Parallelize FakeDevice? -> Volker + Marc
+    * Next meeting: 23.02.2026 14-15h
