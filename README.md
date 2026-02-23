@@ -87,12 +87,31 @@ cybersecurity aspects in quantum machine learning
       - Efficient State Preparation (West)
       - Train on noise device and run on another (different noise model) -> what about results
     * Next Steps:
-      - Get environment working on infoteam local VM environment -> Marc
+      - Get environment working on infoteam local VM environment -> Marc DONE
       - Literature research -> Volker + Marc
       - Strategic/Community -> Who is doing things in cybersecurity for quantum? -> Volker
-      - HowTo Parallelize FakeDevice? -> Volker + Marc
+        - More PQC
+        - More secure channel (QKD,...)
+        - Conferences:
+          * EQTC - European Quantum Technologies Conference - Dublin
+          * QSECDEF 2026: 24.03.2026 Paris
+            - Webinar
+          * QuantumEffects
+        - KI Park e.V.
+      - HowTo Parallelize FakeDevice? -> Volker + Marc DONE
     * Next meeting: 23.02.2026 14-15h
-   
+- 23.02.2026:
+  - Planning:
+    * two papers:
+      1) extended fake-device
+      2) efficient state preparation and robust model
+    * Next Steps:
+      - Review Paper qCCL -> Marc
+      - fake_sim paper -> Marc
+      - state preparation -> Marc
+      - switch device/error model on adversarial attack -> Volker
+      - Literature research -> Volker + Marc
+    * Next meeting: 16.03.2026 14.00-14.30h
     * Conferences:
       - Workshop on Quantum Computing and Quantum Information Trieste, Italy, June 2026, https://www.linkedin.com/posts/jmiszczak_call-for-papers-workshop-on-quantum-computing-share-7426225753916198912-g8Cl/?utm_source=share&utm_medium=member_android&rcm=ACoAAEFkeRUBwOpzzCOywi2zVm8bv5f1VDiX8CQ
       -  IEEE qCCL 2026 (IEEE International Conference on Quantum Control, Computing and Learning 2026) - A Threat-Model–Driven Robustness Benchmark for Quantum Machine Learning Under Device Noise and Deployment Shift
