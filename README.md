@@ -115,3 +115,4 @@ cybersecurity aspects in quantum machine learning
     * Conferences:
       - Workshop on Quantum Computing and Quantum Information Trieste, Italy, June 2026, https://www.linkedin.com/posts/jmiszczak_call-for-papers-workshop-on-quantum-computing-share-7426225753916198912-g8Cl/?utm_source=share&utm_medium=member_android&rcm=ACoAAEFkeRUBwOpzzCOywi2zVm8bv5f1VDiX8CQ
       -  IEEE qCCL 2026 (IEEE International Conference on Quantum Control, Computing and Learning 2026) - A Threat-Model–Driven Robustness Benchmark for Quantum Machine Learning Under Device Noise and Deployment Shift
+      -  QUANCOM 2026 Trento, https://www.linkedin.com/posts/samuel-yen-chi-chen_cfp-quancom-2026-international-conference-share-7431183495940509696-FB6l/?utm_source=share&utm_medium=member_android&rcm=ACoAAEFkeRUBwOpzzCOywi2zVm8bv5f1VDiX8CQ
