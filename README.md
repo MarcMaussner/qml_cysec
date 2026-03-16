@@ -112,7 +112,13 @@ cybersecurity aspects in quantum machine learning
       - switch device/error model on adversarial attack -> Volker
       - Literature research -> Volker + Marc
     * Next meeting: 16.03.2026 14.00-14.30h
-    * Conferences:
-      - Workshop on Quantum Computing and Quantum Information Trieste, Italy, June 2026, https://www.linkedin.com/posts/jmiszczak_call-for-papers-workshop-on-quantum-computing-share-7426225753916198912-g8Cl/?utm_source=share&utm_medium=member_android&rcm=ACoAAEFkeRUBwOpzzCOywi2zVm8bv5f1VDiX8CQ
-      -  IEEE qCCL 2026 (IEEE International Conference on Quantum Control, Computing and Learning 2026) - A Threat-Model–Driven Robustness Benchmark for Quantum Machine Learning Under Device Noise and Deployment Shift
-      -  QUANCOM 2026 Trento, https://www.linkedin.com/posts/samuel-yen-chi-chen_cfp-quancom-2026-international-conference-share-7431183495940509696-FB6l/?utm_source=share&utm_medium=member_android&rcm=ACoAAEFkeRUBwOpzzCOywi2zVm8bv5f1VDiX8CQ
+- 16.03.2026:
+  - Planning:
+    * to next meeting:
+      - decide if we write another more theoretic paper about the robustness countermeasures
+      - decide which conferences to hand in
+    * Next meeting: 24.04.2026 9.00-9.30h
+- Conferences:
+  - Workshop on Quantum Computing and Quantum Information Trieste, Italy, June 2026, https://www.linkedin.com/posts/jmiszczak_call-for-papers-workshop-on-quantum-computing-share-7426225753916198912-g8Cl/?utm_source=share&utm_medium=member_android&rcm=ACoAAEFkeRUBwOpzzCOywi2zVm8bv5f1VDiX8CQ
+  - IEEE qCCL 2026 (IEEE International Conference on Quantum Control, Computing and Learning 2026) - A Threat-Model–Driven Robustness Benchmark for Quantum Machine Learning Under Device Noise and Deployment Shift
+  - QUANCOM 2026 Trento, https://www.linkedin.com/posts/samuel-yen-chi-chen_cfp-quancom-2026-international-conference-share-7431183495940509696-FB6l/?utm_source=share&utm_medium=member_android&rcm=ACoAAEFkeRUBwOpzzCOywi2zVm8bv5f1VDiX8CQ
