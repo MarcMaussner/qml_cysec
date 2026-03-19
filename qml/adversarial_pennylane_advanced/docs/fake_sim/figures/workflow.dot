@@ -1,0 +1,34 @@
+digraph G {
+    fontname="Helvetica,Arial,sans-serif"
+    node [fontname="Helvetica,Arial,sans-serif"]
+    edge [fontname="Helvetica,Arial,sans-serif"]
+    rankdir=LR;
+    node [shape=box, style=rounded, color="#1f77b4", fontcolor="#1f77b4"];
+    
+    Data [label="Data Acquisition\n(plus-minus dataset)"];
+    Pre [label="Preprocessing &\nVisualization"];
+    Backend [label="Backend Init\n(Qiskit Aer / Fake Backend)"];
+    
+    subgraph cluster_model {
+        label = "Model Lifecycle";
+        style=dashed;
+        color=gray;
+        Init [label="QNN Construction\n(StronglyEntanglingLayers)"];
+        Train [label="Benign Training\n(Adam / Torch)"];
+        Attack [label="PGD Attack\nGeneration"];
+        Retrain [label="Adversarial\nRetraining"];
+    }
+    
+    Eval [label="Evaluation &\nMetrics"];
+    Results [label="Result Visualization\n(Pictures/PDF)"];
+
+    Data -> Pre;
+    Pre -> Init;
+    Backend -> Init;
+    Init -> Train;
+    Train -> Attack;
+    Attack -> Retrain;
+    Retrain -> Eval;
+    Attack -> Eval;
+    Eval -> Results;
+}

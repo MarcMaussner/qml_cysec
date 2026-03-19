@@ -1,0 +1,112 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{varwidth}
+
+\usepackage[top=2.5cm,bottom=2.5cm,left=3.5cm,right=2.5cm,marginparwidth=1.75cm]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{listings}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[backend=biber, style=alphabetic]{biblatex}
+\addbibresource{bib/references.bib}
+\usepackage[most]{tcolorbox}
+\usepackage{authblk}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\graphicspath{{../}}
+
+% Custom Environments
+\tcbset{
+  verquerdbox/.style={
+    enhanced,
+    breakable,
+    attach boxed title to top left={xshift=3mm, yshift=-3mm, yshifttext=-1mm},
+    boxed title style={
+      colback=#1,
+      colframe=#1,
+      arc=0mm,
+    },
+    fonttitle=\bfseries\small,
+    arc=0mm,
+    outer arc=0mm,
+    boxrule=0.5pt,
+    top=4mm,
+    bottom=2mm,
+    left=2mm,
+    right=2mm,
+  }
+}
+
+\newtcolorbox{infobox}[1]{
+  verquerdbox=blue!75!black,
+  colback=blue!5!white,
+  colframe=blue!75!black,
+  title=#1,
+}
+
+\newtcolorbox{insight}[1]{
+  verquerdbox=green!60!black,
+  colback=green!5!white,
+  colframe=green!60!black,
+  title=#1,
+}
+
+\newtcolorbox{examplebox}[1]{
+  verquerdbox=orange!80!black,
+  colback=orange!5!white,
+  colframe=orange!80!black,
+  title=#1,
+}
+
+\newtcolorbox{pedagogy}[1]{
+  verquerdbox=cyan!70!black,
+  colback=cyan!5!white,
+  colframe=cyan!70!black,
+  title=#1,
+}
+
+% Custom Colors
+\definecolor{primecolor}{RGB}{200,230,255}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{deepblue}{rgb}{0,0,0.6}
+\definecolor{deepred}{rgb}{0.6,0,0}
+
+% Listings Style
+\lstdefinestyle{verquerdstyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue}\bfseries,
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{deepred},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=10pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    frame=none,
+    xleftmargin=15pt,
+    literate=
+      {Ä}{{\"A}}1
+      {Ö}{{\"O}}1
+      {Ü}{{\"U}}1
+      {ä}{{\"a}}1
+      {ö}{{\"o}}1
+      {ü}{{\"u}}1
+      {ß}{{\ss}}1
+}
+\lstset{style=verquerdstyle}
