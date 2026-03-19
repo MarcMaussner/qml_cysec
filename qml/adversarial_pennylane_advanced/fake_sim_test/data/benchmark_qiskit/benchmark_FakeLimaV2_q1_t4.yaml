@@ -1,0 +1,20 @@
+benchmarks:
+  FakeLimaV2:
+    automatic:
+      multi_thread:
+        avg_time: 0.13596661885579428
+        total_time: 0.4078998565673828
+      qubits_available: 5
+      qubits_benchmarked: 1
+      single_thread:
+        avg_time: 0.02854331334431966
+        total_time: 0.08562994003295898
+      speedup: 0.20992883094778284
+metadata:
+  framework: qiskit-only
+  methods_tested:
+  - automatic
+  n_runs: 3
+  target_qubits: 1
+  threads_tested: 4
+  timestamp: '2026-02-14T22:57:05Z'

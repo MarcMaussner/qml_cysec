@@ -1,0 +1,19 @@
+benchmarks:
+  FakeTorino:
+    automatic:
+      multi_thread:
+        avg_time: 135.577987353007
+        total_time: 406.733962059021
+      qubits_available: 133
+      qubits_benchmarked: 4
+      single_thread:
+        avg_time: 132.72054942448935
+        total_time: 398.161648273468
+      speedup: 0.978924027533484
+metadata:
+  methods_tested:
+  - automatic
+  n_runs: 3
+  target_qubits: 4
+  threads_tested: 1
+  timestamp: '2026-02-12T08:26:47Z'

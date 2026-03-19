@@ -1,0 +1,20 @@
+benchmarks:
+  FakeJakartaV2:
+    automatic:
+      multi_thread:
+        avg_time: 1.038485050201416
+        total_time: 3.115455150604248
+      qubits_available: 7
+      qubits_benchmarked: 7
+      single_thread:
+        avg_time: 1.0293298562367756
+        total_time: 3.087989568710327
+      speedup: 0.9911840868938222
+metadata:
+  framework: qiskit-only
+  methods_tested:
+  - automatic
+  n_runs: 3
+  target_qubits: 8
+  threads_tested: 8
+  timestamp: '2026-02-14T09:03:37Z'

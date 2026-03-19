@@ -1,0 +1,19 @@
+benchmarks:
+  FakeGuadalupeV2:
+    automatic:
+      multi_thread:
+        avg_time: 5.091611226399739
+        total_time: 15.274833679199219
+      qubits_available: 16
+      qubits_benchmarked: 4
+      single_thread:
+        avg_time: 5.091138919194539
+        total_time: 15.273416757583618
+      speedup: 0.9999072381640705
+metadata:
+  methods_tested:
+  - automatic
+  n_runs: 3
+  target_qubits: 4
+  threads_tested: 1
+  timestamp: '2026-02-15T07:19:52Z'

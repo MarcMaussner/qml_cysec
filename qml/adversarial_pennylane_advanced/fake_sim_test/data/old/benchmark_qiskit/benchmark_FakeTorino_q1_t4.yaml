@@ -1,0 +1,20 @@
+benchmarks:
+  FakeTorino:
+    automatic:
+      multi_thread:
+        avg_time: 2.023256858189901
+        total_time: 6.069770574569702
+      qubits_available: 133
+      qubits_benchmarked: 1
+      single_thread:
+        avg_time: 2.0077223777770996
+        total_time: 6.023167133331299
+      speedup: 0.9923220423793847
+metadata:
+  framework: qiskit-only
+  methods_tested:
+  - automatic
+  n_runs: 3
+  target_qubits: 1
+  threads_tested: 4
+  timestamp: '2026-02-14T09:01:48Z'

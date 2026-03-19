@@ -1,0 +1,45 @@
+digraph G {
+    fontname="Helvetica,Arial,sans-serif"
+    node [fontname="Helvetica,Arial,sans-serif" shape=record style=filled fillcolor=white]
+    edge [fontname="Helvetica,Arial,sans-serif"]
+    rankdir=LR;
+
+    subgraph cluster_pennylane {
+        label = "PennyLane (Classical)";
+        color=blue;
+        style=dashed;
+        
+        QNode [label="{QNode | Circuit Definition\lParameters\lShots\l}"];
+        Device [label="{qiskit.remote | Instance of PennyLane Device\lbackend: FakeLimaV2\l}"];
+    }
+
+    subgraph cluster_qiskit {
+        label = "Qiskit Ecosystem";
+        color=red;
+        style=dashed;
+
+        Backend [label="{FakeLimaV2 | Instance of V2 Backend\lOptions: max_parallel_threads\lOptions: max_parallel_experiments\l}"];
+        
+        subgraph cluster_aer {
+            label = "Execution Engine";
+            color=purple;
+            style=filled;
+            fillcolor="#f9f0ff";
+            
+            AerSim [label="{AerSimulator | Local Simulation Engine\lNoise Model (from Backend)\lCoupling Map (from Backend)\l}"];
+        }
+    }
+
+    // Workflow
+    QNode -> Device [label="Execute circuit\nwith params"];
+    Device -> Backend [label="Transpile & Send\n(Backend Job)"];
+    Backend -> AerSim [label="Simulate with options\n(Local Multithreaded)"];
+    AerSim -> Backend [label="Return Counts"];
+    Backend -> Device [label="Job Result"];
+    Device -> QNode [label="Post-processed Results\n(Expectation Values)"];
+
+    // Parameters highlighting
+    param_info [shape=note label="Multicore/Simulation Parameters:\n- max_parallel_threads\n- max_parallel_experiments\n- max_parallel_shots\n- noise_model\n- seed_simulator" fillcolor=lightyellow];
+    param_info -> Backend [style=dotted arrowhead=none];
+    param_info -> AerSim [style=dotted arrowhead=none];
+}

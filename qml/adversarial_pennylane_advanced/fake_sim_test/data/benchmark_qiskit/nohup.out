@@ -1,0 +1,476 @@
+Starting Quantum ML Benchmarking Suite...
+>>> Standard Runs (Set 1)
+Executing: FakeLimaV2 | Wires: 1 | Threads: 1
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0285s | Total: 0.0854s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0291s | Total: 0.0873s
+
+Results saved to benchmark_FakeLimaV2_q1_t1.yaml
+Executing: FakeLimaV2 | Wires: 1 | Threads: 4
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0286s | Total: 0.0859s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 4 | Wires: 1
+Average time: 0.1447s | Total: 0.4340s
+
+Results saved to benchmark_FakeLimaV2_q1_t4.yaml
+Executing: FakeLimaV2 | Wires: 4 | Threads: 1
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.0698s | Total: 0.2093s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.0705s | Total: 0.2115s
+
+Results saved to benchmark_FakeLimaV2_q4_t1.yaml
+Executing: FakeLimaV2 | Wires: 4 | Threads: 4
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.1447s | Total: 0.4341s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 4 | Wires: 4
+Average time: 0.1481s | Total: 0.4444s
+
+Results saved to benchmark_FakeLimaV2_q4_t4.yaml
+Executing: FakeGuadalupeV2 | Wires: 1 | Threads: 1
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0681s | Total: 0.2043s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0569s | Total: 0.1708s
+
+Results saved to benchmark_FakeGuadalupeV2_q1_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 1 | Threads: 4
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0659s | Total: 0.1977s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 4 | Wires: 1
+Average time: 0.1724s | Total: 0.5171s
+
+Results saved to benchmark_FakeGuadalupeV2_q1_t4.yaml
+Executing: FakeGuadalupeV2 | Wires: 4 | Threads: 1
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.1116s | Total: 0.3347s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.1012s | Total: 0.3036s
+
+Results saved to benchmark_FakeGuadalupeV2_q4_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 4 | Threads: 4
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.1120s | Total: 0.3361s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 4 | Wires: 4
+Average time: 0.1528s | Total: 0.4583s
+
+Results saved to benchmark_FakeGuadalupeV2_q4_t4.yaml
+Executing: FakeTorino | Wires: 1 | Threads: 1
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 1
+Average time: 2.0972s | Total: 6.2916s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 1
+Average time: 2.3851s | Total: 7.1552s
+
+Results saved to benchmark_FakeTorino_q1_t1.yaml
+Executing: FakeTorino | Wires: 1 | Threads: 4
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 1
+Average time: 2.2005s | Total: 6.6015s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 4 | Wires: 1
+Average time: 2.5799s | Total: 7.7396s
+
+Results saved to benchmark_FakeTorino_q1_t4.yaml
+Executing: FakeTorino | Wires: 4 | Threads: 1
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 4
+Average time: 2.2723s | Total: 6.8170s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 4
+Average time: 2.4255s | Total: 7.2766s
+
+Results saved to benchmark_FakeTorino_q4_t1.yaml
+Executing: FakeTorino | Wires: 4 | Threads: 4
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 4
+Average time: 2.3810s | Total: 7.1429s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 4 | Wires: 4
+Average time: 2.6915s | Total: 8.0746s
+
+Results saved to benchmark_FakeTorino_q4_t4.yaml
+>>> Advanced Runs (Set 2)
+Executing: FakeJakartaV2 | Wires: 6 | Threads: 1
+
+--- FakeJakartaV2 [ automatic ] ---
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 0.3118s | Total: 0.9354s
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 0.3007s | Total: 0.9020s
+
+Results saved to benchmark_FakeJakartaV2_q6_t1.yaml
+Executing: FakeJakartaV2 | Wires: 6 | Threads: 6
+
+--- FakeJakartaV2 [ automatic ] ---
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 0.3973s | Total: 1.1918s
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 6 | Wires: 6
+Average time: 0.4127s | Total: 1.2382s
+
+Results saved to benchmark_FakeJakartaV2_q6_t6.yaml
+Executing: FakeJakartaV2 | Wires: 6 | Threads: 8
+
+--- FakeJakartaV2 [ automatic ] ---
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 0.3081s | Total: 0.9242s
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 8 | Wires: 6
+Average time: 0.5076s | Total: 1.5227s
+
+Results saved to benchmark_FakeJakartaV2_q6_t8.yaml
+Executing: FakeJakartaV2 | Wires: 8 | Threads: 1
+
+--- FakeJakartaV2 [ automatic ] ---
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 1 | Wires: 8
+Warning: Requested 8 wires, but FakeJakartaV2 only has 7. Using 7.
+Average time: 1.0672s | Total: 3.2017s
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 1 | Wires: 8
+Warning: Requested 8 wires, but FakeJakartaV2 only has 7. Using 7.
+Average time: 1.2534s | Total: 3.7602s
+
+Results saved to benchmark_FakeJakartaV2_q8_t1.yaml
+Executing: FakeJakartaV2 | Wires: 8 | Threads: 6
+
+--- FakeJakartaV2 [ automatic ] ---
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 1 | Wires: 8
+Warning: Requested 8 wires, but FakeJakartaV2 only has 7. Using 7.
+Average time: 1.2178s | Total: 3.6535s
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 6 | Wires: 8
+Warning: Requested 8 wires, but FakeJakartaV2 only has 7. Using 7.
+Average time: 1.2511s | Total: 3.7533s
+
+Results saved to benchmark_FakeJakartaV2_q8_t6.yaml
+Executing: FakeJakartaV2 | Wires: 8 | Threads: 8
+
+--- FakeJakartaV2 [ automatic ] ---
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 1 | Wires: 8
+Warning: Requested 8 wires, but FakeJakartaV2 only has 7. Using 7.
+Average time: 1.1173s | Total: 3.3518s
+
+>>> Benchmarking FakeJakartaV2 | Method: automatic | Threads: 8 | Wires: 8
+Warning: Requested 8 wires, but FakeJakartaV2 only has 7. Using 7.
+Average time: 1.3072s | Total: 3.9215s
+
+Results saved to benchmark_FakeJakartaV2_q8_t8.yaml
+Executing: FakeTorino | Wires: 6 | Threads: 1
+Starting Quantum ML Benchmarking Suite...
+>>> Standard Runs (Set 1)
+Executing: FakeLimaV2 | Wires: 1 | Threads: 1
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0511s | Total: 0.1534s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0287s | Total: 0.0862s
+
+Results saved to benchmark_FakeLimaV2_q1_t1.yaml
+Executing: FakeLimaV2 | Wires: 1 | Threads: 4
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0285s | Total: 0.0856s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 4 | Wires: 1
+Average time: 0.1360s | Total: 0.4079s
+
+Results saved to benchmark_FakeLimaV2_q1_t4.yaml
+Executing: FakeLimaV2 | Wires: 4 | Threads: 1
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.0700s | Total: 0.2100s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.0700s | Total: 0.2101s
+
+Results saved to benchmark_FakeLimaV2_q4_t1.yaml
+Executing: FakeLimaV2 | Wires: 4 | Threads: 4
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.0704s | Total: 0.2111s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 4 | Wires: 4
+Average time: 0.1657s | Total: 0.4970s
+
+Results saved to benchmark_FakeLimaV2_q4_t4.yaml
+Executing: FakeGuadalupeV2 | Wires: 1 | Threads: 1
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.1410s | Total: 0.4229s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.0751s | Total: 0.2252s
+
+Results saved to benchmark_FakeGuadalupeV2_q1_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 1 | Threads: 4
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 0.1203s | Total: 0.3609s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 4 | Wires: 1
+Average time: 0.0857s | Total: 0.2572s
+
+Results saved to benchmark_FakeGuadalupeV2_q1_t4.yaml
+Executing: FakeGuadalupeV2 | Wires: 4 | Threads: 1
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.1137s | Total: 0.3412s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.1331s | Total: 0.3994s
+
+Results saved to benchmark_FakeGuadalupeV2_q4_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 4 | Threads: 4
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 0.1125s | Total: 0.3375s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 4 | Wires: 4
+Average time: 0.1974s | Total: 0.5922s
+
+Results saved to benchmark_FakeGuadalupeV2_q4_t4.yaml
+Executing: FakeTorino | Wires: 1 | Threads: 1
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 1
+Average time: 2.2379s | Total: 6.7138s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 1
+Average time: 2.2785s | Total: 6.8356s
+
+Results saved to benchmark_FakeTorino_q1_t1.yaml
+Executing: FakeTorino | Wires: 1 | Threads: 4
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 1
+Average time: 2.2145s | Total: 6.6434s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 4 | Wires: 1
+Average time: 2.6711s | Total: 8.0132s
+
+Results saved to benchmark_FakeTorino_q1_t4.yaml
+Executing: FakeTorino | Wires: 4 | Threads: 1
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 4
+Average time: 2.2797s | Total: 6.8391s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 4
+Average time: 2.5417s | Total: 7.6252s
+
+Results saved to benchmark_FakeTorino_q4_t1.yaml
+Executing: FakeTorino | Wires: 4 | Threads: 4
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 4
+Average time: 2.3466s | Total: 7.0398s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 4 | Wires: 4
+Average time: 2.7086s | Total: 8.1259s
+
+Results saved to benchmark_FakeTorino_q4_t4.yaml
+>>> Advanced Runs (Set 2)
+Executing: FakeGuadalupeV2 | Wires: 6 | Threads: 1
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 0.3317s | Total: 0.9952s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 0.3388s | Total: 1.0163s
+
+Results saved to benchmark_FakeGuadalupeV2_q6_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 6 | Threads: 6
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 0.3346s | Total: 1.0039s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 6 | Wires: 6
+Average time: 0.3743s | Total: 1.1229s
+
+Results saved to benchmark_FakeGuadalupeV2_q6_t6.yaml
+Executing: FakeGuadalupeV2 | Wires: 6 | Threads: 8
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 0.3316s | Total: 0.9948s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 8 | Wires: 6
+Average time: 0.6068s | Total: 1.8203s
+
+Results saved to benchmark_FakeGuadalupeV2_q6_t8.yaml
+Executing: FakeGuadalupeV2 | Wires: 8 | Threads: 1
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 8
+Average time: 1.7765s | Total: 5.3296s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 8
+Average time: 1.7403s | Total: 5.2208s
+
+Results saved to benchmark_FakeGuadalupeV2_q8_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 8 | Threads: 6
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 8
+Average time: 1.6918s | Total: 5.0754s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 6 | Wires: 8
+Average time: 2.1285s | Total: 6.3855s
+
+Results saved to benchmark_FakeGuadalupeV2_q8_t6.yaml
+Executing: FakeGuadalupeV2 | Wires: 8 | Threads: 8
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 8
+Average time: 1.9028s | Total: 5.7083s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 8 | Wires: 8
+Average time: 1.6636s | Total: 4.9909s
+
+Results saved to benchmark_FakeGuadalupeV2_q8_t8.yaml
+Executing: FakeTorino | Wires: 6 | Threads: 1
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 6
+Average time: 2.8635s | Total: 8.5905s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 6
+Average time: 3.7010s | Total: 11.1031s
+
+Results saved to benchmark_FakeTorino_q6_t1.yaml
+Executing: FakeTorino | Wires: 6 | Threads: 6
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 6
+Average time: 3.4691s | Total: 10.4073s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 6 | Wires: 6
+Average time: 3.2628s | Total: 9.7884s
+
+Results saved to benchmark_FakeTorino_q6_t6.yaml
+Executing: FakeTorino | Wires: 6 | Threads: 8
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 6
+Average time: 3.1062s | Total: 9.3186s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 8 | Wires: 6
+Average time: 3.1614s | Total: 9.4843s
+
+Results saved to benchmark_FakeTorino_q6_t8.yaml
+Executing: FakeTorino | Wires: 8 | Threads: 1
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 8
+Average time: 3.8306s | Total: 11.4918s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 8
+Average time: 4.1536s | Total: 12.4607s
+
+Results saved to benchmark_FakeTorino_q8_t1.yaml
+Executing: FakeTorino | Wires: 8 | Threads: 6
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 8
+Average time: 3.9900s | Total: 11.9701s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 6 | Wires: 8
+Average time: 3.9130s | Total: 11.7391s
+
+Results saved to benchmark_FakeTorino_q8_t6.yaml
+Executing: FakeTorino | Wires: 8 | Threads: 8
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 8
+Average time: 3.8805s | Total: 11.6415s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 8 | Wires: 8
+Average time: 9.8883s | Total: 29.6650s
+
+Results saved to benchmark_FakeTorino_q8_t8.yaml
+Benchmarking suite completed.

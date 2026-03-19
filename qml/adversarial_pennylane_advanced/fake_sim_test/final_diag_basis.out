@@ -1,0 +1,489 @@
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py:269: UserWarning: Providing `coupling_map` and/or `basis_gates` along with `backend` is not recommended, as this will invalidate the backend's gate durations and error rates.
+  pm = generate_preset_pass_manager(
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py:269: UserWarning: Providing `coupling_map` and/or `basis_gates` along with `backend` is not recommended, as this will invalidate the backend's gate durations and error rates.
+  pm = generate_preset_pass_manager(
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py:269: UserWarning: Providing `coupling_map` and/or `basis_gates` along with `backend` is not recommended, as this will invalidate the backend's gate durations and error rates.
+  pm = generate_preset_pass_manager(
+Traceback (most recent call last):
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/benchmark_aer_guadalupe.py", line 87, in run_benchmark
+    circuit(params)
+    ~~~~~~~^^^^^^^^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/qnode.py", line 863, in __call__
+    return self._impl_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/qnode.py", line 836, in _impl_call
+    res = execute(
+        (tape,),
+    ...<5 lines>...
+        **self.execute_kwargs,
+    )
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/execution.py", line 238, in execute
+    results = run(tapes, device, config, inner_transform)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/run.py", line 298, in run
+    results = inner_execute(tapes)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/run.py", line 263, in inner_execute
+    results = device.execute(transformed_tapes, execution_config=execution_config)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/devices/modifiers/single_tape_support.py", line 32, in execute
+    results = batch_execute(self, circuits, execution_config)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/devices/legacy_facade.py", line 463, in execute
+    return _set_shots(dev, first_shot)(dev.batch_execute)(circuits, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/mms/anaconda3/lib/python3.13/contextlib.py", line 85, in inner
+    return func(*args, **kwds)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device_legacy.py", line 452, in batch_execute
+    compiled_circuits = self.compile_circuits(circuits)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device_legacy.py", line 442, in compile_circuits
+    compiled_circ = self.compile()
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device_legacy.py", line 341, in compile
+    return transpile(
+        self._circuit,
+    ...<5 lines>...
+        routing_method="none",
+    )
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py", line 291, in transpile
+    out_circuits = pm.run(circuits, callback=callback, num_processes=num_processes)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passmanager.py", line 415, in run
+    return super().run(circuits, output_name, callback, num_processes=num_processes)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passmanager.py", line 438, in wrapper
+    return meth(*meth_args, **meth_kwargs)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passmanager.py", line 197, in run
+    return super().run(
+           ~~~~~~~~~~~^
+        in_programs=circuits,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        property_set=property_set,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/passmanager.py", line 238, in run
+    _run_workflow(
+    ~~~~~~~~~~~~~^
+        program=program,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/passmanager.py", line 311, in _run_workflow
+    passmanager_ir, final_state = flow_controller.execute(
+                                  ~~~~~~~~~~~~~~~~~~~~~~~^
+        passmanager_ir=passmanager_ir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        callback=kwargs.get("callback", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/base_tasks.py", line 218, in execute
+    passmanager_ir, state = next_task.execute(
+                            ~~~~~~~~~~~~~~~~~^
+        passmanager_ir=passmanager_ir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        state=state,
+        ^^^^^^^^^^^^
+        callback=callback,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/basepasses.py", line 167, in execute
+    new_dag, state = super().execute(
+                     ~~~~~~~~~~~~~~~^
+        passmanager_ir=passmanager_ir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        state=state,
+        ^^^^^^^^^^^^
+        callback=callback,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/base_tasks.py", line 98, in execute
+    ret = self.run(passmanager_ir)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passes/basis/basis_translator.py", line 120, in run
+    out = base_run(
+        dag,
+    ...<3 lines>...
+        None if self._target_basis is None else set(self._target_basis),
+    )
+qiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {("rx", 1), ("ry", 1), ("save_state", 1)} to the backend\'s (or manually specified) target basis: {"id", "sx", "reset", "x", "delay", "rz", "measure", "cx", "while_loop", "for_loop", "if_else", "switch_case", "box", "barrier", "snapshot", "store"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py:269: UserWarning: Providing `coupling_map` and/or `basis_gates` along with `backend` is not recommended, as this will invalidate the backend's gate durations and error rates.
+  pm = generate_preset_pass_manager(
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py:269: UserWarning: Providing `coupling_map` and/or `basis_gates` along with `backend` is not recommended, as this will invalidate the backend's gate durations and error rates.
+  pm = generate_preset_pass_manager(
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py:269: UserWarning: Providing `coupling_map` and/or `basis_gates` along with `backend` is not recommended, as this will invalidate the backend's gate durations and error rates.
+  pm = generate_preset_pass_manager(
+Traceback (most recent call last):
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/benchmark_aer_guadalupe.py", line 87, in run_benchmark
+    circuit(params)
+    ~~~~~~~^^^^^^^^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/qnode.py", line 863, in __call__
+    return self._impl_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/qnode.py", line 836, in _impl_call
+    res = execute(
+        (tape,),
+    ...<5 lines>...
+        **self.execute_kwargs,
+    )
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/execution.py", line 238, in execute
+    results = run(tapes, device, config, inner_transform)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/run.py", line 298, in run
+    results = inner_execute(tapes)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/run.py", line 263, in inner_execute
+    results = device.execute(transformed_tapes, execution_config=execution_config)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/devices/modifiers/single_tape_support.py", line 32, in execute
+    results = batch_execute(self, circuits, execution_config)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/devices/legacy_facade.py", line 463, in execute
+    return _set_shots(dev, first_shot)(dev.batch_execute)(circuits, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/mms/anaconda3/lib/python3.13/contextlib.py", line 85, in inner
+    return func(*args, **kwds)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device_legacy.py", line 452, in batch_execute
+    compiled_circuits = self.compile_circuits(circuits)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device_legacy.py", line 442, in compile_circuits
+    compiled_circ = self.compile()
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device_legacy.py", line 341, in compile
+    return transpile(
+        self._circuit,
+    ...<5 lines>...
+        routing_method="none",
+    )
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py", line 291, in transpile
+    out_circuits = pm.run(circuits, callback=callback, num_processes=num_processes)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passmanager.py", line 415, in run
+    return super().run(circuits, output_name, callback, num_processes=num_processes)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passmanager.py", line 438, in wrapper
+    return meth(*meth_args, **meth_kwargs)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passmanager.py", line 197, in run
+    return super().run(
+           ~~~~~~~~~~~^
+        in_programs=circuits,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        property_set=property_set,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/passmanager.py", line 238, in run
+    _run_workflow(
+    ~~~~~~~~~~~~~^
+        program=program,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/passmanager.py", line 311, in _run_workflow
+    passmanager_ir, final_state = flow_controller.execute(
+                                  ~~~~~~~~~~~~~~~~~~~~~~~^
+        passmanager_ir=passmanager_ir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        callback=kwargs.get("callback", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/base_tasks.py", line 218, in execute
+    passmanager_ir, state = next_task.execute(
+                            ~~~~~~~~~~~~~~~~~^
+        passmanager_ir=passmanager_ir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        state=state,
+        ^^^^^^^^^^^^
+        callback=callback,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/basepasses.py", line 167, in execute
+    new_dag, state = super().execute(
+                     ~~~~~~~~~~~~~~~^
+        passmanager_ir=passmanager_ir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        state=state,
+        ^^^^^^^^^^^^
+        callback=callback,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/base_tasks.py", line 98, in execute
+    ret = self.run(passmanager_ir)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passes/basis/basis_translator.py", line 120, in run
+    out = base_run(
+        dag,
+    ...<3 lines>...
+        None if self._target_basis is None else set(self._target_basis),
+    )
+qiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {("save_state", 6)} to the backend\'s (or manually specified) target basis: {"id", "sx", "reset", "x", "delay", "rz", "measure", "cx", "while_loop", "for_loop", "if_else", "switch_case", "box", "barrier", "snapshot", "store"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py:269: UserWarning: Providing `coupling_map` and/or `basis_gates` along with `backend` is not recommended, as this will invalidate the backend's gate durations and error rates.
+  pm = generate_preset_pass_manager(
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py:269: UserWarning: Providing `coupling_map` and/or `basis_gates` along with `backend` is not recommended, as this will invalidate the backend's gate durations and error rates.
+  pm = generate_preset_pass_manager(
+/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py:269: UserWarning: Providing `coupling_map` and/or `basis_gates` along with `backend` is not recommended, as this will invalidate the backend's gate durations and error rates.
+  pm = generate_preset_pass_manager(
+=== Aer Simulation Benchmark Start ===
+
+==================================================
+BEGIN TESTING: 1 QUBITS
+==================================================
+
+>>> [START] Benchmarking FakeGuadalupeV2 | Method: automatic | Wires: 1
+DEBUG: [1/7] Fetching backend FakeGuadalupeV2...
+DEBUG: Backend loaded: fake_guadalupe
+DEBUG: [2/7] Creating AerSimulator from FakeGuadalupeV2...
+DEBUG: [3/7] Configuring simulator (method=automatic, coupling_map=None)...
+DEBUG: Simulator options updated.
+DEBUG: [4/7] Initializing PennyLane device 'qiskit.aer'...
+DEBUG: Device 'qiskit.aer' ready with basis_gates.
+DEBUG: [5/7] Generating random parameters for 2 rotation layers...
+DEBUG: [6/7] Running warmup execution...
+DEBUG: Warmup success. Time: 0.1627s
+DEBUG: [7/7] Executing benchmark loop (3 repetitions)...
+  - Repetition 1/3: 0.0641s
+  - Repetition 2/3: 0.0474s
+  - Repetition 3/3: 0.0515s
+>>> [DONE] Results for automatic: Avg 0.0543s | Total 0.1629s
+
+>>> [START] Benchmarking FakeGuadalupeV2 | Method: matrix_product_state | Wires: 1
+DEBUG: [1/7] Fetching backend FakeGuadalupeV2...
+DEBUG: Backend loaded: fake_guadalupe
+DEBUG: [2/7] Creating AerSimulator from FakeGuadalupeV2...
+DEBUG: [3/7] Configuring simulator (method=matrix_product_state, coupling_map=None)...
+DEBUG: Simulator options updated.
+DEBUG: [4/7] Initializing PennyLane device 'qiskit.aer'...
+DEBUG: Device 'qiskit.aer' ready with basis_gates.
+DEBUG: [5/7] Generating random parameters for 2 rotation layers...
+DEBUG: [6/7] Running warmup execution...
+DEBUG: Warmup success. Time: 0.0580s
+DEBUG: [7/7] Executing benchmark loop (3 repetitions)...
+  - Repetition 1/3: 0.0578s
+  - Repetition 2/3: 0.0572s
+  - Repetition 3/3: 0.0583s
+>>> [DONE] Results for matrix_product_state: Avg 0.0577s | Total 0.1732s
+
+>>> [START] Benchmarking FakeGuadalupeV2 | Method: statevector | Wires: 1
+DEBUG: [1/7] Fetching backend FakeGuadalupeV2...
+DEBUG: Backend loaded: fake_guadalupe
+DEBUG: [2/7] Creating AerSimulator from FakeGuadalupeV2...
+DEBUG: [3/7] Configuring simulator (method=statevector, coupling_map=None)...
+DEBUG: Simulator options updated.
+DEBUG: [4/7] Initializing PennyLane device 'qiskit.aer'...
+DEBUG: Device 'qiskit.aer' ready with basis_gates.
+DEBUG: [5/7] Generating random parameters for 2 rotation layers...
+DEBUG: [6/7] Running warmup execution...
+CRITICAL ERROR during warmup for statevector: 'Unable to translate the operations in the circuit: {("rx", 1), ("ry", 1), ("save_state", 1)} to the backend\'s (or manually specified) target basis: {"id", "sx", "reset", "x", "delay", "rz", "measure", "cx", "while_loop", "for_loop", "if_else", "switch_case", "box", "barrier", "snapshot", "store"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'
+
+==================================================
+BEGIN TESTING: 6 QUBITS
+==================================================
+
+>>> [START] Benchmarking FakeGuadalupeV2 | Method: automatic | Wires: 6
+DEBUG: [1/7] Fetching backend FakeGuadalupeV2...
+DEBUG: Backend loaded: fake_guadalupe
+DEBUG: [2/7] Creating AerSimulator from FakeGuadalupeV2...
+DEBUG: [3/7] Configuring simulator (method=automatic, coupling_map=None)...
+DEBUG: Simulator options updated.
+DEBUG: [4/7] Initializing PennyLane device 'qiskit.aer'...
+DEBUG: Device 'qiskit.aer' ready with basis_gates.
+DEBUG: [5/7] Generating random parameters for 2 rotation layers...
+DEBUG: [6/7] Running warmup execution...
+DEBUG: Warmup success. Time: 0.0554s
+DEBUG: [7/7] Executing benchmark loop (3 repetitions)...
+  - Repetition 1/3: 0.0564s
+  - Repetition 2/3: 0.0568s
+  - Repetition 3/3: 0.0545s
+>>> [DONE] Results for automatic: Avg 0.0559s | Total 0.1677s
+
+>>> [START] Benchmarking FakeGuadalupeV2 | Method: matrix_product_state | Wires: 6
+DEBUG: [1/7] Fetching backend FakeGuadalupeV2...
+DEBUG: Backend loaded: fake_guadalupe
+DEBUG: [2/7] Creating AerSimulator from FakeGuadalupeV2...
+DEBUG: [3/7] Configuring simulator (method=matrix_product_state, coupling_map=None)...
+DEBUG: Simulator options updated.
+DEBUG: [4/7] Initializing PennyLane device 'qiskit.aer'...
+DEBUG: Device 'qiskit.aer' ready with basis_gates.
+DEBUG: [5/7] Generating random parameters for 2 rotation layers...
+DEBUG: [6/7] Running warmup execution...
+DEBUG: Warmup success. Time: 0.3894s
+DEBUG: [7/7] Executing benchmark loop (3 repetitions)...
+  - Repetition 1/3: 0.3852s
+  - Repetition 2/3: 0.3936s
+  - Repetition 3/3: 0.4972s
+>>> [DONE] Results for matrix_product_state: Avg 0.4253s | Total 1.2760s
+
+>>> [START] Benchmarking FakeGuadalupeV2 | Method: statevector | Wires: 6
+DEBUG: [1/7] Fetching backend FakeGuadalupeV2...
+DEBUG: Backend loaded: fake_guadalupe
+DEBUG: [2/7] Creating AerSimulator from FakeGuadalupeV2...
+DEBUG: [3/7] Configuring simulator (method=statevector, coupling_map=None)...
+DEBUG: Simulator options updated.
+DEBUG: [4/7] Initializing PennyLane device 'qiskit.aer'...
+DEBUG: Device 'qiskit.aer' ready with basis_gates.
+DEBUG: [5/7] Generating random parameters for 2 rotation layers...
+DEBUG: [6/7] Running warmup execution...
+CRITICAL ERROR during warmup for statevector: 'Unable to translate the operations in the circuit: {("save_state", 6)} to the backend\'s (or manually specified) target basis: {"id", "sx", "reset", "x", "delay", "rz", "measure", "cx", "while_loop", "for_loop", "if_else", "switch_case", "box", "barrier", "snapshot", "store"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'
+
+==================================================
+BEGIN TESTING: 8 QUBITS
+==================================================
+
+>>> [START] Benchmarking FakeGuadalupeV2 | Method: automatic | Wires: 8
+DEBUG: [1/7] Fetching backend FakeGuadalupeV2...
+DEBUG: Backend loaded: fake_guadalupe
+DEBUG: [2/7] Creating AerSimulator from FakeGuadalupeV2...
+DEBUG: [3/7] Configuring simulator (method=automatic, coupling_map=None)...
+DEBUG: Simulator options updated.
+DEBUG: [4/7] Initializing PennyLane device 'qiskit.aer'...
+DEBUG: Device 'qiskit.aer' ready with basis_gates.
+DEBUG: [5/7] Generating random parameters for 2 rotation layers...
+DEBUG: [6/7] Running warmup execution...
+DEBUG: Warmup success. Time: 0.0574s
+DEBUG: [7/7] Executing benchmark loop (3 repetitions)...
+  - Repetition 1/3: 0.0571s
+  - Repetition 2/3: 0.0574s
+  - Repetition 3/3: 0.0580s
+>>> [DONE] Results for automatic: Avg 0.0575s | Total 0.1725s
+
+>>> [START] Benchmarking FakeGuadalupeV2 | Method: matrix_product_state | Wires: 8
+DEBUG: [1/7] Fetching backend FakeGuadalupeV2...
+DEBUG: Backend loaded: fake_guadalupe
+DEBUG: [2/7] Creating AerSimulator from FakeGuadalupeV2...
+DEBUG: [3/7] Configuring simulator (method=matrix_product_state, coupling_map=None)...
+DEBUG: Simulator options updated.
+DEBUG: [4/7] Initializing PennyLane device 'qiskit.aer'...
+DEBUG: Device 'qiskit.aer' ready with basis_gates.
+DEBUG: [5/7] Generating random parameters for 2 rotation layers...
+DEBUG: [6/7] Running warmup execution...
+DEBUG: Warmup success. Time: 0.6024s
+DEBUG: [7/7] Executing benchmark loop (3 repetitions)...
+  - Repetition 1/3: 0.6031s
+  - Repetition 2/3: 0.6069s
+  - Repetition 3/3: 0.6027s
+>>> [DONE] Results for matrix_product_state: Avg 0.6043s | Total 1.8128s
+
+>>> [START] Benchmarking FakeGuadalupeV2 | Method: statevector | Wires: 8
+DEBUG: [1/7] Fetching backend FakeGuadalupeV2...
+DEBUG: Backend loaded: fake_guadalupe
+DEBUG: [2/7] Creating AerSimulator from FakeGuadalupeV2...
+DEBUG: [3/7] Configuring simulator (method=statevector, coupling_map=None)...
+DEBUG: Simulator options updated.
+DEBUG: [4/7] Initializing PennyLane device 'qiskit.aer'...
+DEBUG: Device 'qiskit.aer' ready with basis_gates.
+DEBUG: [5/7] Generating random parameters for 2 rotation layers...
+DEBUG: [6/7] Running warmup execution...
+CRITICAL ERROR during warmup for statevector: 'Unable to translate the operations in the circuit: {("save_state", 8)} to the backend\'s (or manually specified) target basis: {"id", "sx", "reset", "x", "delay", "rz", "measure", "cx", "while_loop", "for_loop", "if_else", "switch_case", "box", "barrier", "snapshot", "store"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'Traceback (most recent call last):
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/benchmark_aer_guadalupe.py", line 87, in run_benchmark
+    circuit(params)
+    ~~~~~~~^^^^^^^^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/qnode.py", line 863, in __call__
+    return self._impl_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/qnode.py", line 836, in _impl_call
+    res = execute(
+        (tape,),
+    ...<5 lines>...
+        **self.execute_kwargs,
+    )
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/execution.py", line 238, in execute
+    results = run(tapes, device, config, inner_transform)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/run.py", line 298, in run
+    results = inner_execute(tapes)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/workflow/run.py", line 263, in inner_execute
+    results = device.execute(transformed_tapes, execution_config=execution_config)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/devices/modifiers/single_tape_support.py", line 32, in execute
+    results = batch_execute(self, circuits, execution_config)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane/devices/legacy_facade.py", line 463, in execute
+    return _set_shots(dev, first_shot)(dev.batch_execute)(circuits, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/mms/anaconda3/lib/python3.13/contextlib.py", line 85, in inner
+    return func(*args, **kwds)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device_legacy.py", line 452, in batch_execute
+    compiled_circuits = self.compile_circuits(circuits)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device_legacy.py", line 442, in compile_circuits
+    compiled_circ = self.compile()
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device_legacy.py", line 341, in compile
+    return transpile(
+        self._circuit,
+    ...<5 lines>...
+        routing_method="none",
+    )
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/compiler/transpiler.py", line 291, in transpile
+    out_circuits = pm.run(circuits, callback=callback, num_processes=num_processes)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passmanager.py", line 415, in run
+    return super().run(circuits, output_name, callback, num_processes=num_processes)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passmanager.py", line 438, in wrapper
+    return meth(*meth_args, **meth_kwargs)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passmanager.py", line 197, in run
+    return super().run(
+           ~~~~~~~~~~~^
+        in_programs=circuits,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        property_set=property_set,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/passmanager.py", line 238, in run
+    _run_workflow(
+    ~~~~~~~~~~~~~^
+        program=program,
+        ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/passmanager.py", line 311, in _run_workflow
+    passmanager_ir, final_state = flow_controller.execute(
+                                  ~~~~~~~~~~~~~~~~~~~~~~~^
+        passmanager_ir=passmanager_ir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        callback=kwargs.get("callback", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/base_tasks.py", line 218, in execute
+    passmanager_ir, state = next_task.execute(
+                            ~~~~~~~~~~~~~~~~~^
+        passmanager_ir=passmanager_ir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        state=state,
+        ^^^^^^^^^^^^
+        callback=callback,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/basepasses.py", line 167, in execute
+    new_dag, state = super().execute(
+                     ~~~~~~~~~~~~~~~^
+        passmanager_ir=passmanager_ir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        state=state,
+        ^^^^^^^^^^^^
+        callback=callback,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/passmanager/base_tasks.py", line 98, in execute
+    ret = self.run(passmanager_ir)
+  File "/home/mms/.cache/pypoetry/virtualenvs/qml-cysec-eDIQpfjM-py3.13/lib/python3.13/site-packages/qiskit/transpiler/passes/basis/basis_translator.py", line 120, in run
+    out = base_run(
+        dag,
+    ...<3 lines>...
+        None if self._target_basis is None else set(self._target_basis),
+    )
+qiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {("save_state", 8)} to the backend\'s (or manually specified) target basis: {"id", "sx", "reset", "x", "delay", "rz", "measure", "cx", "while_loop", "for_loop", "if_else", "switch_case", "box", "barrier", "snapshot", "store"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'
+
+
+==================================================
+FINISHING: Saving results...
+Results successfully saved to: results_aer_simulation_options_guadalupe.yaml
+Total benchmark duration: 6.76s
+=== Aer Simulation Benchmark End ===

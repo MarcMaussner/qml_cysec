@@ -1,0 +1,363 @@
+Starting Quantum ML Benchmarking Suite...
+>>> Standard Runs (Set 1)
+Executing: FakeLimaV2 | Wires: 1 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 1.4697s | Total: 4.4090s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 1.4425s | Total: 4.3275s
+
+Results saved to benchmark_FakeLimaV2_q1_t1.yaml
+Executing: FakeLimaV2 | Wires: 1 | Threads: 4
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 1.4515s | Total: 4.3544s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 4 | Wires: 1
+Average time: 1.4745s | Total: 4.4235s
+
+Results saved to benchmark_FakeLimaV2_q1_t4.yaml
+Executing: FakeLimaV2 | Wires: 4 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 1.7076s | Total: 5.1228s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 1.7258s | Total: 5.1773s
+
+Results saved to benchmark_FakeLimaV2_q4_t1.yaml
+Executing: FakeLimaV2 | Wires: 4 | Threads: 4
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeLimaV2 [ automatic ] ---
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 1.7503s | Total: 5.2508s
+
+>>> Benchmarking FakeLimaV2 | Method: automatic | Threads: 4 | Wires: 4
+Average time: 1.7496s | Total: 5.2488s
+
+Results saved to benchmark_FakeLimaV2_q4_t4.yaml
+Executing: FakeGuadalupeV2 | Wires: 1 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 4.7132s | Total: 14.1395s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 4.8066s | Total: 14.4197s
+
+Results saved to benchmark_FakeGuadalupeV2_q1_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 1 | Threads: 4
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 1
+Average time: 4.8061s | Total: 14.4182s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 4 | Wires: 1
+Average time: 4.9699s | Total: 14.9096s
+
+Results saved to benchmark_FakeGuadalupeV2_q1_t4.yaml
+Executing: FakeGuadalupeV2 | Wires: 4 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 5.0911s | Total: 15.2734s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 5.0916s | Total: 15.2748s
+
+Results saved to benchmark_FakeGuadalupeV2_q4_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 4 | Threads: 4
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 4
+Average time: 5.1111s | Total: 15.3332s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 4 | Wires: 4
+Average time: 5.1909s | Total: 15.5727s
+
+Results saved to benchmark_FakeGuadalupeV2_q4_t4.yaml
+Executing: FakeTorino | Wires: 1 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 1
+Average time: 133.0035s | Total: 399.0106s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 1
+Average time: 134.3915s | Total: 403.1744s
+
+Results saved to benchmark_FakeTorino_q1_t1.yaml
+Executing: FakeTorino | Wires: 1 | Threads: 4
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 1
+Average time: 132.7888s | Total: 398.3665s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 4 | Wires: 1
+Average time: 132.1179s | Total: 396.3537s
+
+Results saved to benchmark_FakeTorino_q1_t4.yaml
+Executing: FakeTorino | Wires: 4 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 4
+Average time: 132.6462s | Total: 397.9387s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 4
+Average time: 135.0225s | Total: 405.0674s
+
+Results saved to benchmark_FakeTorino_q4_t1.yaml
+Executing: FakeTorino | Wires: 4 | Threads: 4
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 4
+Average time: 133.0459s | Total: 399.1377s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 4 | Wires: 4
+Average time: 132.9767s | Total: 398.9300s
+
+Results saved to benchmark_FakeTorino_q4_t4.yaml
+>>> Advanced Runs (Set 2)
+Executing: FakeGuadalupeV2 | Wires: 6 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 5.4018s | Total: 16.2054s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 5.3916s | Total: 16.1747s
+
+Results saved to benchmark_FakeGuadalupeV2_q6_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 6 | Threads: 6
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 5.3890s | Total: 16.1670s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 6 | Wires: 6
+Average time: 5.4332s | Total: 16.2995s
+
+Results saved to benchmark_FakeGuadalupeV2_q6_t6.yaml
+Executing: FakeGuadalupeV2 | Wires: 6 | Threads: 8
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 6
+Average time: 5.4369s | Total: 16.3108s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 8 | Wires: 6
+Average time: 5.4142s | Total: 16.2425s
+
+Results saved to benchmark_FakeGuadalupeV2_q6_t8.yaml
+Executing: FakeGuadalupeV2 | Wires: 8 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 8
+Average time: 13.1429s | Total: 39.4288s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 8
+Average time: 6.8886s | Total: 20.6658s
+
+Results saved to benchmark_FakeGuadalupeV2_q8_t1.yaml
+Executing: FakeGuadalupeV2 | Wires: 8 | Threads: 6
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 8
+Average time: 6.8538s | Total: 20.5614s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 6 | Wires: 8
+Average time: 5.7996s | Total: 17.3988s
+
+Results saved to benchmark_FakeGuadalupeV2_q8_t6.yaml
+Executing: FakeGuadalupeV2 | Wires: 8 | Threads: 8
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeGuadalupeV2 [ automatic ] ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 1 | Wires: 8
+Average time: 6.8391s | Total: 20.5172s
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Threads: 8 | Wires: 8
+Average time: 5.6842s | Total: 17.0525s
+
+Results saved to benchmark_FakeGuadalupeV2_q8_t8.yaml
+Executing: FakeTorino | Wires: 6 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 6
+Average time: 133.6927s | Total: 401.0780s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 6
+Average time: 135.5307s | Total: 406.5922s
+
+Results saved to benchmark_FakeTorino_q6_t1.yaml
+Executing: FakeTorino | Wires: 6 | Threads: 6
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 6
+Average time: 134.2979s | Total: 402.8937s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 6 | Wires: 6
+Average time: 133.6098s | Total: 400.8294s
+
+Results saved to benchmark_FakeTorino_q6_t6.yaml
+Executing: FakeTorino | Wires: 6 | Threads: 8
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 6
+Average time: 133.5964s | Total: 400.7893s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 8 | Wires: 6
+Average time: 131.8411s | Total: 395.5232s
+
+Results saved to benchmark_FakeTorino_q6_t8.yaml
+Executing: FakeTorino | Wires: 8 | Threads: 1
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 8
+Average time: 135.4998s | Total: 406.4995s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 8
+Average time: 137.8812s | Total: 413.6435s
+
+Results saved to benchmark_FakeTorino_q8_t1.yaml
+Executing: FakeTorino | Wires: 8 | Threads: 6
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 8
+Average time: 135.2157s | Total: 405.6470s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 6 | Wires: 8
+Average time: 133.7316s | Total: 401.1948s
+
+Results saved to benchmark_FakeTorino_q8_t6.yaml
+Executing: FakeTorino | Wires: 8 | Threads: 8
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- FakeTorino [ automatic ] ---
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 1 | Wires: 8
+Average time: 135.4890s | Total: 406.4671s
+
+>>> Benchmarking FakeTorino | Method: automatic | Threads: 8 | Wires: 8
+Average time: 133.8795s | Total: 401.6384s
+
+Results saved to benchmark_FakeTorino_q8_t8.yaml
+Benchmarking suite completed.
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/__init__.py:212: PennyLaneDeprecationWarning: PennyLane v0.44 has dropped maintainence support for NumPy < 2.0.0. You have version 1.26.4 installed. Future versions of PennyLane will not work with NumPy<2.0. Please consider upgrading NumPy using `python -m pip install numpy --upgrade`. 
+  warnings.warn(
+
+--- Qubits: 1 | Method: automatic ---
+
+>>> Benchmarking FakeGuadalupeV2 | Method: automatic | Wires: 1
+Traceback (most recent call last):
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/benchmark_aer_guadalupe.py", line 99, in <module>
+    res = run_benchmark(backend_name, n_wires=n_qubits, method=method, n_runs=runs)
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/benchmark_aer_guadalupe.py", line 63, in run_benchmark
+    circuit(params_batch)
+    ~~~~~~~^^^^^^^^^^^^^^
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/workflow/qnode.py", line 863, in __call__
+    return self._impl_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/workflow/qnode.py", line 836, in _impl_call
+    res = execute(
+        (tape,),
+    ...<5 lines>...
+        **self.execute_kwargs,
+    )
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/workflow/execution.py", line 238, in execute
+    results = run(tapes, device, config, inner_transform)
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/workflow/run.py", line 298, in run
+    results = inner_execute(tapes)
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/workflow/run.py", line 263, in inner_execute
+    results = device.execute(transformed_tapes, execution_config=execution_config)
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device.py", line 82, in execute
+    results = tracked_execute(self, circuits, execution_config)
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane/devices/modifiers/simulator_tracking.py", line 30, in execute
+    results = untracked_execute(self, circuits, execution_config)
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device.py", line 591, in execute
+    results.append(execute_fn(circ, session))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/pennylane_qiskit/qiskit_device.py", line 663, in _execute_estimator
+    ).result()
+      ~~~~~~^^
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim_test/venv/lib/python3.13/site-packages/qiskit/primitives/primitive_job.py", line 70, in result
+    self._result = self._future.result()
+                   ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mms/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/mms/anaconda3/lib/python3.13/threading.py", line 359, in wait
+    waiter.acquire()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt

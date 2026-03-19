@@ -1,0 +1,20 @@
+benchmarks:
+  FakeGuadalupeV2:
+    automatic:
+      multi_thread:
+        avg_time: 0.07506903012593587
+        total_time: 0.22520709037780762
+      qubits_available: 16
+      qubits_benchmarked: 1
+      single_thread:
+        avg_time: 0.1409789721171061
+        total_time: 0.42293691635131836
+      speedup: 1.877991122045931
+metadata:
+  framework: qiskit-only
+  methods_tested:
+  - automatic
+  n_runs: 3
+  target_qubits: 1
+  threads_tested: 1
+  timestamp: '2026-02-14T22:57:10Z'

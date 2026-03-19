@@ -1,0 +1,19 @@
+benchmarks:
+  FakeLimaV2:
+    automatic:
+      multi_thread:
+        avg_time: 1.4172226587931316
+        total_time: 4.2516679763793945
+      qubits_available: 5
+      qubits_benchmarked: 1
+      single_thread:
+        avg_time: 1.5693590641021729
+        total_time: 4.7080771923065186
+      speedup: 1.107348273304208
+metadata:
+  methods_tested:
+  - automatic
+  n_runs: 3
+  target_qubits: 1
+  threads_tested: 4
+  timestamp: '2026-02-12T07:48:57Z'

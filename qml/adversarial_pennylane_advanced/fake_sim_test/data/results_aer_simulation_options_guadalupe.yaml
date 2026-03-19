@@ -1,0 +1,62 @@
+benchmarks:
+  q1:
+    automatic:
+      avg_time: 0.03821921348571777
+      qubits_available: 16
+      qubits_benchmarked: 1
+      total_time: 0.11465764045715332
+    matrix_product_state:
+      avg_time: 0.07773812611897786
+      qubits_available: 16
+      qubits_benchmarked: 1
+      total_time: 0.2332143783569336
+    statevector:
+      avg_time: 0.04146552085876465
+      qubits_available: 16
+      qubits_benchmarked: 1
+      total_time: 0.12439656257629395
+  q6:
+    automatic:
+      avg_time: 0.04046821594238281
+      qubits_available: 16
+      qubits_benchmarked: 6
+      total_time: 0.12140464782714844
+    matrix_product_state:
+      avg_time: 0.3846248785654704
+      qubits_available: 16
+      qubits_benchmarked: 6
+      total_time: 1.1538746356964111
+    statevector:
+      avg_time: 0.04559206962585449
+      qubits_available: 16
+      qubits_benchmarked: 6
+      total_time: 0.13677620887756348
+  q8:
+    automatic:
+      avg_time: 0.042417287826538086
+      qubits_available: 16
+      qubits_benchmarked: 8
+      total_time: 0.12725186347961426
+    matrix_product_state:
+      avg_time: 0.5903072357177734
+      qubits_available: 16
+      qubits_benchmarked: 8
+      total_time: 1.7709217071533203
+    statevector:
+      avg_time: 0.05207538604736328
+      qubits_available: 16
+      qubits_benchmarked: 8
+      total_time: 0.15622615814208984
+metadata:
+  backend: FakeGuadalupeV2
+  methods_tested:
+  - automatic
+  - matrix_product_state
+  - statevector
+  n_runs: 3
+  qubits_list:
+  - 1
+  - 6
+  - 8
+  sim_options: coupling_map=None
+  timestamp: '2026-02-16T08:43:03Z'
