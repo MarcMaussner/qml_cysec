@@ -1,0 +1,34 @@
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim/venv/lib/python3.13/site-packages/pennylane/devices/device_api.py:201: PennyLaneDeprecationWarning: Setting shots on device is deprecated. Please use the `set_shots` transform on the respective QNode instead.
+  warnings.warn(
+Saved image to pictures/initial_data_visualization.png
+Using device: cpu
+Starting training loop for quantum variational classifier (4 qubits, 16 layers)...
+--- Starting QML Model Training ---
+Epoch 0/4 | Approx Cost (train): 1.3841869 | Cost (val): 1.3882595 | Approx Acc train: 0.2200000 | Acc val: 0.3000000
+Epoch 1/4 | Approx Cost (train): 1.3109759 | Cost (val): 1.3114780 | Approx Acc train: 0.4800000 | Acc val: 0.4400000
+Epoch 2/4 | Approx Cost (train): 1.1974268 | Cost (val): 1.1943728 | Approx Acc train: 0.9200000 | Acc val: 0.8800000
+Epoch 3/4 | Approx Cost (train): 1.1116719 | Cost (val): 1.0953150 | Approx Acc train: 0.9400000 | Acc val: 0.9800000
+Epoch 4/4 | Approx Cost (train): 1.0573630 | Cost (val): 1.0390285 | Approx Acc train: 0.9200000 | Acc val: 0.9600000
+--- QML Model Training took 52708.22 seconds ---
+Saved image to pictures/benign_data_evaluation.png
+--- Starting Benign Evaluation ---
+Acc val: 0.9600000
+--- Benign Evaluation took 8.74 seconds ---
+Saved confusion matrix to pictures/confusion_matrix_benign.png
+--- Starting PGD Attack Generation (Vis Samples) ---
+--- PGD Attack Generation (Vis Samples) took 2676.65 seconds ---
+Saved image to pictures/adversarial_attack_evaluation.png
+--- Starting Adversarial Evaluation (Full Test Set) ---
+--- Adversarial Evaluation (Full Test Set) took 34432.57 seconds ---
+Acc val: 0.1200000
+Saved confusion matrix to pictures/confusion_matrix_adversarial.png
+--- Starting Adversarial Retraining ---
+Epoch 0/2 | Approx Cost (train): 1.0634621 | Cost (val): 1.0524408 | Approx Acc train: 0.9200000 | Acc val: 0.9600000
+Epoch 1/2 | Approx Cost (train): 0.9954543 | Cost (val): 0.9892181 | Approx Acc train: 0.9200000 | Acc val: 0.9200000
+Epoch 2/2 | Approx Cost (train): 0.9233698 | Cost (val): 0.9411407 | Approx Acc train: 0.9600000 | Acc val: 0.9600000
+--- Adversarial Retraining took 27327.46 seconds ---
+Saved image to pictures/robustness_evaluation_after_retraining.png
+Acc val: 0.4800000
+Saved confusion matrix to pictures/confusion_matrix_robust_model.png
+
+✅ Total execution time: 130546.44 seconds

@@ -1,0 +1,30 @@
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim/venv/lib/python3.13/site-packages/pennylane/devices/device_api.py:201: PennyLaneDeprecationWarning: Setting shots on device is deprecated. Please use the `set_shots` transform on the respective QNode instead.
+  warnings.warn(
+Loading local dataset from datasets/plus-minus/plus-minus.h5
+Saved image to pictures/initial_data_visualization.png
+Using device: cpu
+Starting training loop for quantum variational classifier (8 qubits, 32 layers)...
+--- Starting QML Model Training ---
+Epoch 0/4 | Approx Cost (train): 1.3881897 | Cost (val): 1.3942809 | Approx Acc train: 0.3000000 | Acc val: 0.1400000
+Epoch 1/4 | Approx Cost (train): 1.3883202 | Cost (val): 1.3822767 | Approx Acc train: 0.2000000 | Acc val: 0.3000000
+Epoch 2/4 | Approx Cost (train): 1.3896178 | Cost (val): 1.3946685 | Approx Acc train: 0.2400000 | Acc val: 0.2600000
+Epoch 3/4 | Approx Cost (train): 1.3901943 | Cost (val): 1.3934325 | Approx Acc train: 0.2800000 | Acc val: 0.0800000
+Epoch 4/4 | Approx Cost (train): 1.3884537 | Cost (val): 1.3848571 | Approx Acc train: 0.2800000 | Acc val: 0.2600000
+--- QML Model Training took 744095.49 seconds ---
+Saved image to pictures/benign_data_evaluation.png
+--- Starting Benign Evaluation ---
+Acc val: 0.3800000
+--- Benign Evaluation took 29.63 seconds ---
+Saved confusion matrix to pictures/confusion_matrix_benign.png
+--- Starting PGD Attack Generation (Vis Samples) ---
+--- PGD Attack Generation (Vis Samples) took 38600.79 seconds ---
+Traceback (most recent call last):
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim/PGD_Attack_Reduced_Noise_Fake_Guadalupe_8qubits.py", line 350, in <module>
+    visualize_data(perturbed_x.reshape(-1, 8, 8), y_vis, adversarial_class_output, save_name="adversarial_attack_evaluation.png")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim/PGD_Attack_Reduced_Noise_Fake_Guadalupe_8qubits.py", line 87, in visualize_data
+    axes[i].imshow(x[i], cmap="gray")
+    ~~~~^^^
+IndexError: index 4 is out of bounds for axis 0 with size 4
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim/venv/lib/python3.13/site-packages/pennylane/devices/device_api.py:201: PennyLaneDeprecationWarning: Setting shots on device is deprecated. Please use the `set_shots` transform on the respective QNode instead.
+  warnings.warn(

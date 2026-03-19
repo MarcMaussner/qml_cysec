@@ -1,0 +1,36 @@
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim/venv/lib/python3.13/site-packages/pennylane/devices/device_api.py:201: PennyLaneDeprecationWarning: Setting shots on device is deprecated. Please use the `set_shots` transform on the respective QNode instead.
+  warnings.warn(
+Loading local dataset from datasets/plus-minus/plus-minus.h5
+Saved image to pictures_ratio/initial_data_visualization.png
+Using device: cpu
+Starting training loop (4 qubits, 16 layers)...
+--- Starting QML Model Training (Initial) ---
+Epoch 0/4 | Approx Cost (train): 1.3868545 | Cost (val): 1.3865355 | Approx Acc train: 0.2400000 | Acc val: 0.2600000
+Epoch 1/4 | Approx Cost (train): 1.3113487 | Cost (val): 1.3028511 | Approx Acc train: 0.6000000 | Acc val: 0.6400000
+Epoch 2/4 | Approx Cost (train): 1.1958543 | Cost (val): 1.2077017 | Approx Acc train: 0.8800000 | Acc val: 0.8800000
+Epoch 3/4 | Approx Cost (train): 1.1303504 | Cost (val): 1.1491942 | Approx Acc train: 0.8800000 | Acc val: 0.8800000
+Epoch 4/4 | Approx Cost (train): 1.0894301 | Cost (val): 1.1034007 | Approx Acc train: 0.9400000 | Acc val: 0.9600000
+--- QML Model Training (Initial) took 89561.59 seconds ---
+Saved image to pictures_ratio/benign_data_evaluation.png
+--- Starting Benign Evaluation ---
+Acc val: 0.9600000
+--- Benign Evaluation took 15.54 seconds ---
+--- Starting PGD Attack Generation (Vis Samples) ---
+--- PGD Attack Generation (Vis Samples) took 4534.87 seconds ---
+Saved image to pictures_ratio/adversarial_attack_evaluation.png
+--- Starting Adversarial Evaluation (Full Test Set) ---
+--- Adversarial Evaluation (Full Test Set) took 57983.04 seconds ---
+Acc val: 0.1400000
+Saved confusion matrix to pictures_ratio/confusion_matrix_adversarial.png
+--- Starting Full Adversarial Dataset Generation ---
+--- Full Adversarial Dataset Generation took 240448.60 seconds ---
+--- Starting Adversarial Retraining (50/50 Ratio) ---
+Epoch 0/2 starting...
+Epoch 1/2 starting...
+--- Adversarial Retraining (50/50 Ratio) took 91984.78 seconds ---
+Saved image to pictures_ratio/robustness_evaluation_after_retraining.png
+--- Starting Robustness Evaluation after Retraining ---
+Robust Acc (50/50 Ratio): 0.8400000
+--- Robustness Evaluation after Retraining took 14.50 seconds ---
+
+✅ Total execution time: 484548.38 seconds

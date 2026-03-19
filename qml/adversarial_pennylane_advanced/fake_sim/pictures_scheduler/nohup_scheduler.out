@@ -1,0 +1,39 @@
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim/venv/lib/python3.13/site-packages/pennylane/devices/device_api.py:201: PennyLaneDeprecationWarning: Setting shots on device is deprecated. Please use the `set_shots` transform on the respective QNode instead.
+  warnings.warn(
+Loading local dataset from datasets/plus-minus/plus-minus.h5
+Saved image to pictures_scheduler/initial_data_visualization.png
+Using device: cpu
+Starting training loop with Learning Rate Scheduler (StepLR) (4 qubits, 16 layers)...
+--- Starting QML Model Training (LR Scheduler) ---
+Epoch 0/8 | LR: 0.10000 | Approx Cost (train): 1.3839787 | Cost (val): 1.3869380 | Approx Acc train: 0.2600000 | Acc val: 0.2600000
+Epoch 1/8 | LR: 0.10000 | Approx Cost (train): 1.2720075 | Cost (val): 1.2779802 | Approx Acc train: 0.6600000 | Acc val: 0.6000000
+Epoch 2/8 | LR: 0.10000 | Approx Cost (train): 1.1503187 | Cost (val): 1.1800411 | Approx Acc train: 0.8800000 | Acc val: 0.8600000
+Epoch 3/8 | LR: 0.01000 | Approx Cost (train): 1.1086525 | Cost (val): 1.1029007 | Approx Acc train: 0.8600000 | Acc val: 0.9200000
+Epoch 4/8 | LR: 0.01000 | Approx Cost (train): 1.0819358 | Cost (val): 1.0884856 | Approx Acc train: 0.8600000 | Acc val: 0.9200000
+Epoch 5/8 | LR: 0.01000 | Approx Cost (train): 1.0780910 | Cost (val): 1.0843586 | Approx Acc train: 0.9400000 | Acc val: 0.9800000
+Epoch 6/8 | LR: 0.00100 | Approx Cost (train): 1.0609626 | Cost (val): 1.0711746 | Approx Acc train: 0.9000000 | Acc val: 0.9400000
+Epoch 7/8 | LR: 0.00100 | Approx Cost (train): 1.0668355 | Cost (val): 1.0756490 | Approx Acc train: 0.9200000 | Acc val: 0.9400000
+Epoch 8/8 | LR: 0.00100 | Approx Cost (train): 1.0633725 | Cost (val): 1.0668980 | Approx Acc train: 0.9400000 | Acc val: 0.9400000
+--- QML Model Training (LR Scheduler) took 175536.97 seconds ---
+Saved image to pictures_scheduler/benign_data_evaluation.png
+--- Starting Benign Evaluation ---
+Acc val: 0.9600000
+--- Benign Evaluation took 14.74 seconds ---
+Saved confusion matrix to pictures_scheduler/confusion_matrix_benign.png
+--- Starting PGD Attack Generation (Vis Samples) ---
+--- PGD Attack Generation (Vis Samples) took 4480.55 seconds ---
+Saved image to pictures_scheduler/adversarial_attack_evaluation.png
+--- Starting Adversarial Evaluation (Full Test Set) ---
+--- Adversarial Evaluation (Full Test Set) took 58358.37 seconds ---
+Acc val: 0.1400000
+Saved confusion matrix to pictures_scheduler/confusion_matrix_adversarial.png
+--- Starting Adversarial Retraining ---
+Epoch 0/2 | LR: 0.00100 | Approx Cost (train): 1.0621576 | Cost (val): 1.0700645 | Approx Acc train: 0.9000000 | Acc val: 0.9600000
+Epoch 1/2 | LR: 0.00100 | Approx Cost (train): 1.0636660 | Cost (val): 1.0676621 | Approx Acc train: 0.9200000 | Acc val: 0.9200000
+Epoch 2/2 | LR: 0.00100 | Approx Cost (train): 1.0607084 | Cost (val): 1.0675888 | Approx Acc train: 0.9400000 | Acc val: 0.9600000
+--- Adversarial Retraining took 44737.25 seconds ---
+Saved image to pictures_scheduler/robustness_evaluation_after_retraining.png
+Acc val: 0.1200000
+Saved confusion matrix to pictures_scheduler/confusion_matrix_robust_model.png
+
+✅ Total execution time: 305255.87 seconds

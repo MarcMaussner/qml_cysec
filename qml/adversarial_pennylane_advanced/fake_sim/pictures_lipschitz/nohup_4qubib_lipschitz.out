@@ -1,0 +1,38 @@
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim/venv/lib/python3.13/site-packages/pennylane/devices/device_api.py:201: PennyLaneDeprecationWarning: Setting shots on device is deprecated. Please use the `set_shots` transform on the respective QNode instead.
+  warnings.warn(
+/home/mms/workspace_qmlsec/qml_cysec/qml/adversarial_pennylane_advanced/fake_sim/venv/lib/python3.13/site-packages/pennylane/math/single_dispatch.py:666: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  return torch.as_tensor(x, dtype=dtype, **kwargs)
+Loading local dataset from datasets/plus-minus/plus-minus.h5
+Saved image to pictures_lipschitz/initial_data_visualization.png
+Using device: cpu
+Starting training loop with Lipschitz Regularization (4 qubits, 16 layers, reg=0.05)...
+--- Starting QML Model Training (Lipschitz Regularization) ---
+Epoch 0/4 | Approx Cost (train): 1.3855617 | Cost (val): 1.3947959 | Approx Acc train: 0.2400000 | Acc val: 0.1600000
+Epoch 1/4 | Approx Cost (train): 1.2903242 | Cost (val): 1.2820877 | Approx Acc train: 0.5200000 | Acc val: 0.6800000
+Epoch 2/4 | Approx Cost (train): 1.2127393 | Cost (val): 1.2198240 | Approx Acc train: 0.9000000 | Acc val: 0.8800000
+Epoch 3/4 | Approx Cost (train): 1.1805304 | Cost (val): 1.1680126 | Approx Acc train: 0.8400000 | Acc val: 0.8800000
+Epoch 4/4 | Approx Cost (train): 1.1459520 | Cost (val): 1.1528548 | Approx Acc train: 0.9400000 | Acc val: 0.9000000
+--- QML Model Training (Lipschitz Regularization) took 182067.51 seconds ---
+Saved image to pictures_lipschitz/benign_data_evaluation.png
+--- Starting Benign Evaluation ---
+Acc val: 0.9400000
+--- Benign Evaluation took 14.98 seconds ---
+Saved confusion matrix to pictures_lipschitz/confusion_matrix_benign.png
+--- Starting PGD Attack Generation (Vis Samples) ---
+--- PGD Attack Generation (Vis Samples) took 4457.15 seconds ---
+Saved image to pictures_lipschitz/adversarial_attack_evaluation.png
+--- Starting Adversarial Evaluation (Full Test Set) ---
+--- Adversarial Evaluation (Full Test Set) took 57220.90 seconds ---
+Acc val: 0.4400000
+Saved confusion matrix to pictures_lipschitz/confusion_matrix_adversarial.png
+--- Starting Adversarial Retraining ---
+Epoch 0/2 | Approx Cost (train): 1.1430424 | Cost (val): 1.1476725 | Approx Acc train: 0.9000000 | Acc val: 0.9400000
+Epoch 1/2 | Approx Cost (train): 1.0989475 | Cost (val): 1.1002567 | Approx Acc train: 0.9200000 | Acc val: 0.9200000
+Epoch 2/2 | Approx Cost (train): 1.0456593 | Cost (val): 1.0588000 | Approx Acc train: 0.9800000 | Acc val: 0.9400000
+--- Adversarial Retraining took 45792.34 seconds ---
+Saved image to pictures_lipschitz/robustness_evaluation_after_retraining.png
+Acc val: 0.6400000
+Saved confusion matrix to pictures_lipschitz/confusion_matrix_robust_model.png
+
+✅ Total execution time: 312371.09 seconds
