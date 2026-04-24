@@ -118,6 +118,24 @@ cybersecurity aspects in quantum machine learning
       - decide if we write another more theoretic paper about the robustness countermeasures
       - decide which conferences to hand in
     * Next meeting: 24.04.2026 9.00-9.30h
+- 24.04.2026:
+  - Planning:
+    * theoretic papaer about robustness countermeasures will be done in the future (around summer, autumn,...) and maybe handed in next year
+    * Acceptance for IEEE qCCL 2026 as poster:
+      - Volker will take care about paper improvements
+      - Volker will take care about poster
+      - Marc will not be able to join aalborg
+    * Acceptance GI:
+      - Paper is handed in cameera ready
+      - Presentation to be done around august 2026
+    * Quantum 2026:
+      - Paper handed in no information, yet
+    * Quantiki:
+      - As time is not ideal and we have no further topic we decline to participate there.
+    * Kimmu/ Finland:
+      - Marc will provide slides
+      - Volker will come up with first draft (to be discussed in next meeting) -> maybe results of both new papers can be shown
+    * Next Meeting: 29.05.2026 9.00-9.30h
 - Conferences:
   - Workshop on Quantum Computing and Quantum Information Trieste, Italy, June 2026, https://www.linkedin.com/posts/jmiszczak_call-for-papers-workshop-on-quantum-computing-share-7426225753916198912-g8Cl/?utm_source=share&utm_medium=member_android&rcm=ACoAAEFkeRUBwOpzzCOywi2zVm8bv5f1VDiX8CQ
   - IEEE qCCL 2026 (IEEE International Conference on Quantum Control, Computing and Learning 2026) - A Threat-Model–Driven Robustness Benchmark for Quantum Machine Learning Under Device Noise and Deployment Shift
