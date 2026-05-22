@@ -1,0 +1,3220 @@
+Setting up Qiskit backend: FakeJakartaV2...
+Loading local dataset from: ../fake_sim/datasets/plus-minus/plus-minus.h5
+Saved image to pictures_qiskit/initial_data_visualization.png
+Saved circuit diagram to pictures_qiskit/classifier_circuit.png
+Starting Qiskit training loop on FakeJakartaV2 (4 qubits, 16 layers)...
+--- Starting QML Model Training ---
+Epoch 0/4 | Acc val: 0.2200
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 5.94 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.04 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 5.98 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.06 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 5.93 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.04 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 5.97 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.07 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.07 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 5.96 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.51 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.54 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.62 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.40 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.40 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.52 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.61 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.04 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.47 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.42 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.67 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.54 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.54 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.48 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.55 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.41 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.63 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.53 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.54 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.41 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.45 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.12 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.68 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 5.98 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 7.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.43 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.43 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.41 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.49 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.04 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.43 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.12 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.56 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.61 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.45 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.67 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.59 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.53 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.47 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.51 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+Epoch 1/4 | Acc val: 0.7400
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.40 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.51 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.57 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.67 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.40 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.41 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.61 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.52 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.43 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.67 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.47 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.47 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.43 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.58 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.43 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.40 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.47 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.51 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.51 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.55 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.48 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.58 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.63 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.59 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.40 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.41 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.57 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.49 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.41 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.07 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.70 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.47 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.68 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.61 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.55 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.51 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+Epoch 2/4 | Acc val: 0.8200
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.61 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.48 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.53 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.49 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.53 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.51 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.49 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.62 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.48 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.62 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.48 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.66 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.12 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.70 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.40 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.55 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.53 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.56 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.41 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.53 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.55 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 7.00 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.43 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.12 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.44 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.49 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.41 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.72 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.58 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.47 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.47 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.41 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.41 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 5.95 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.07 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.48 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.02 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.40 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+Epoch 3/4 | Acc val: 0.9200
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.03 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.05 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.58 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.56 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.41 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 5.99 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.64 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.55 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.03 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.49 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.60 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.46 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.06 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.12 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.40 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.36 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.40 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.44 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.43 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.41 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 7.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.39 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.50 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.07 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.43 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.64 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.38 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.19 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.13 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.18 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.10 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.48 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.37 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.11 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.35 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.44 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.33 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.14 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.09 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.26 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.12 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.39 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.12 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.17 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.45 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 7.31 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.42 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.12 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.47 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.15 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.24 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.35 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.43 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.38 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.28 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.27 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.34 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.22 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.54 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.08 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.30 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.29 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.25 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.36 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.20 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.37 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.32 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.16 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.48 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.32 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.12 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.33 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.21 seconds ---
+--- Starting Building Gradient Circuits ---
+--- Building Gradient Circuits took 0.34 seconds ---
+--- Starting Batch Execution (384 circuits) ---
+--- Batch Execution (384 circuits) took 6.23 seconds ---
+Epoch 4/4 | Acc val: 0.8600
+--- QML Model Training took 5364.44 seconds ---
+--- Starting Benign Evaluation ---
+Final Benign Accuracy: 0.9000
+Saved confusion matrix to pictures_qiskit/confusion_matrix_benign_FakeJakartaV2.png
+--- Benign Evaluation took 2.22 seconds ---
+Saved image to pictures_qiskit/benign_data_evaluation_FakeJakartaV2.png
+Saving trained model parameters to FakeJakartaV2_training.yaml...
+✅ Training script complete! Parameters successfully written to FakeJakartaV2_training.yaml
+✅ Total execution time: 5367.94 seconds
