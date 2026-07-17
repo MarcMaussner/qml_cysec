@@ -152,9 +152,10 @@ cybersecurity aspects in quantum machine learning
     * Waiting for reply from Quancom 2026
   - Future:
     * theoretic paper about robustness countermeasures will be done in the future (around summer, autumn,...) and maybe handed in next year
-  - Next Meeting:
+  - Next Meeting: 10.09.2026 9.00-9.30h
 - Upcoming Conferences:
   - Quancom 2026
   - GI Workshop Quancom
   - Bitkom AIDAQ
+  - QAI 2026
 
