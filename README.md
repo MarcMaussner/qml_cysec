@@ -149,10 +149,16 @@ cybersecurity aspects in quantum machine learning
       - Camera ready after review findings handed in
       - Presentation to be done in August
     * Workshop Kimmo done
-    * Waiting for reply from Quancom 2026
+    * Waiting for reply from Quancom 2026 -> Declined
   - Future:
     * theoretic paper about robustness countermeasures will be done in the future (around summer, autumn,...) and maybe handed in next year
-  - Next Meeting: 10.09.2026 9.00-9.30h
+  - Next Meeting: 14.09.2026 10.00 - 10.30
+- 14.09.2026:
+  - Planning
+    * GI:
+      - Presentation done. Align presentation to speaker
+  - Future:
+    * theoretic papaer about robustness countermeasures
 - Upcoming Conferences:
   - Quancom 2026
   - GI Workshop Quancom
